@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Pad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- body  -->
+
+    <div class="container">
+        <div class="keys">
+            
+            <div class="key" data-code="65">
+                <p>A</p>
+                <hr style="width: 70px;">
+                <span>Kick</span>
+            </div>
+
+            <div class="key" data-code="83">
+                <p>S</p>
+                <hr style="width: 70px;">
+                <span>Hihat</span>
+            </div>
+
+            <div class="key" data-code="68">
+                <p>D</p>
+                <hr style="width: 70px;">
+                <span>Openhat</span>
+            </div>
+
+            <div class="key" data-code="70">
+                <p>F</p>
+                <hr style="width: 70px;">
+                <span>snare</span>
+            </div>
+
+        </div>
+    </div>
+        <!-- sounds -->
+        <audio src="sounds/kik.mp3" data-code="65"></audio>
+        <audio src="sounds/hihat.mp3" data-code="83"></audio>
+        <audio src="sounds/openhat.mp3" data-code="68" ></audio>
+        <audio src="sounds/snare.mp3" data-code="70"></audio>
+
+        <!-- links -->
+    <script src="app.js"></script>
+</body>
+</html>
