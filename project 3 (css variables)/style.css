@@ -1,0 +1,31 @@
+:root{
+    --base : #ffc600;
+    --blur : 0px;
+    --spacing:10px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.img-container{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.img-container  img{
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background-color: var(--base);
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Variables</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="controls">
+            <label for="spacing">Spacing :</label>
+            <input type="range" name="spacing" min="10" max="200" value="10" data-suffix="px">
+
+            <label for="blur">Blur :</label>
+            <input type="range" name="blur" min="0" max="25" value="0" data-suffix="px">
+
+            <label for="base">Base Color :</label>
+            <input type="color" value="#ffc600" name="base" >
+        </div>
+
+        <div class="img-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5jERhSwUSXyJpDtdm50rWRj0TVoPdaBpoCQ&s" alt="">
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
