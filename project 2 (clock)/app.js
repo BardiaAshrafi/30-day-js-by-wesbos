@@ -17,7 +17,6 @@ function clock() {
     secHand.style.transform = `rotate(${secondDegree + 90}deg)`;
     minHand.style.transform = `rotate(${minDegree + 90}deg)`;
     hourHand.style.transform = `rotate(${hourDegree + 90}deg)`;
-    console.log(date.getHours());
     
 }
 
